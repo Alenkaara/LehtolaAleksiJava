@@ -36,8 +36,4 @@ public class Course {
     public void setTeacherName(String teacherName) {
         this.teacherName = teacherName;
     }
-
-    public long getId() {
-        return 0;
-    }
 }

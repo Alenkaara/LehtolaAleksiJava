@@ -9,8 +9,8 @@ public class LehtolaaleksijavaApplication {
 	public static void main(String[] args) throws Exception {
 		SpringApplication.run(LehtolaaleksijavaApplication.class, args);
 
-		// CourseFileService studentFiles = new CourseFileService("./files/students.txt");
-		// CourseFileService courseFiles = new CourseFileService("./files/courses.txt");
+		CourseFileService studentFiles = new CourseFileService("./files/students.txt");
+		CourseFileService courseFiles = new CourseFileService("./files/courses.txt");
 		
 		// for (Student s : studentFiles.students) {
 		// 	System.out.println(s.getFirstName() + " " + s.getLastName());

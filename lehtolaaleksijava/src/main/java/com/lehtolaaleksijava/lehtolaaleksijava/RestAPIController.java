@@ -18,6 +18,7 @@ public class RestAPIController {
     String courseFilePath = "./files/courses.txt";
 
     @Autowired
+    ICourseFileService courseFileService;
 
     @GetMapping("students")
     public List<Student> getStudents() throws FileNotFoundException {

@@ -2,12 +2,12 @@ package com.lehtolaaleksijava.lehtolaaleksijava;
 
 public class OnlineCourse extends Course {
 
-    private String courseAddress;
-
-    public OnlineCourse(long courseId, String courseName, String teacherName, String courseAddress) {
+    public OnlineCourse(long courseId, String courseName, String teacherName) {
         super(courseId, courseName, teacherName);
-        this.courseAddress = courseAddress;
+        //TODO Auto-generated constructor stub
     }
+
+    private String courseAddress;
 
     public String getCourseAddress() {
         return this.courseAddress;
