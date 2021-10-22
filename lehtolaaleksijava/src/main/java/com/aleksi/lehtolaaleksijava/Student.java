@@ -5,8 +5,10 @@ public class Student {
     private String firstName;
     private String lastName;
 
-    public Student(long studentId, String firstName, String lastName) {
-        this.studentId = studentId;
+    private static long idCounter = 0;
+
+    public Student(String firstName, String lastName) {
+        this.studentId = idCounter++;
         this.firstName = firstName;
         this.lastName = lastName;
     }
