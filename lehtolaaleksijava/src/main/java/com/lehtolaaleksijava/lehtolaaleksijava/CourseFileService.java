@@ -20,32 +20,11 @@ public class CourseFileService {
         while (sc.hasNextLine()) {
             String[] courseInfo = sc.nextLine().split("---");
             Course c = new Course(courseInfo[0], courseInfo[1], courseInfo[2]);
+
+            courses.add(c);
         }
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
 

@@ -11,7 +11,7 @@ public class Course {
 
     private static long idCounter = 0;
 
-    public Course(long courseId, String courseName, String teacherName) {
+    public Course(String courseInfo, String courseName, String teacherName) {
         this.courseId = idCounter++;
         this.courseName = courseName;
         this.teacherName = teacherName;

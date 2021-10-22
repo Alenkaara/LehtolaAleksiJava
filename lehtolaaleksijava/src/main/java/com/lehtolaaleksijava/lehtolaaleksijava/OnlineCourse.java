@@ -2,8 +2,8 @@ package com.lehtolaaleksijava.lehtolaaleksijava;
 
 public class OnlineCourse extends Course {
 
-    public OnlineCourse(long courseId, String courseName, String teacherName) {
-        super(courseId, courseName, teacherName);
+    public OnlineCourse(String courseName, String teacherName) {
+        super(courseName, teacherName);
         //TODO Auto-generated constructor stub
     }
 
